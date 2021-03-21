@@ -1,0 +1,116 @@
+/* Ce document sert à modifier le style CSS c'est à dire la forme de la page, le html équivaut au fond */
+
+/* Import des Polices */
+@font-face {
+    font-family: 'Amaranth-Regular';
+    src: url(Amaranth-Regular.ttf);
+    font-family: 'Amaranth-Bold';
+    src: url(Amaranth-Bold.ttf);
+    font-family: 'TililliumWeb-Regular';
+    src: url(TitilliumWeb-Regular.ttf);
+}
+Balise
+{
+    font-family: police1, police2, police3, police4;
+} /* Le navigateur cherche des polices s'il ne trouve pas celles demandées */
+
+/* Style du haut de page */
+header{
+  background-color: #AAC8CC;
+  text-align: center;
+}
+#logo{
+  width: 457px;
+}
+#msg{
+  color: #F2F5F5 ;
+  font-family: "Amaranth-Regular", Verdana, monospace;
+}
+
+/* Style du bas de page */
+footer{
+  background-color: #AAC8CC;
+  text-align: center;
+}
+/* Style de la barre Menu*/
+nav.menu-nav ul{
+  text-align: center;
+}
+nav.menu-nav ul li.btn{
+  display: inline-block;
+  list-style-type: none;
+  background-color: #4A8891 ;
+  padding: 10px;
+}
+nav.menu-nav ul li.btn a{
+  text-decoration: none;
+  font-size: 20;
+  font-family: 'Amaranth-Regular';
+  color: #F2F5F5;
+}
+nav.menu-nav ul li.btn:hover a{
+  color: #6AABB4 ;
+  background-color: #F2F5F5;
+}
+/* Style du corps de la page */
+body{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+div#content div{
+  display: inline-block;
+  width: 48%;
+}
+/* Style block div */
+div#content div.leftbox{
+  vertical-align: top;
+}
+div#content div.rightbox{
+  vertical-align: top;
+}
+#sp1{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 10px;
+  width: 97%;
+}
+#sp10{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 46%;
+}
+
+/* Style Titres & Paragraphes */
+h1{
+    font-family: 'Amaranth-Bold', Impact, "Arial Black", serif;
+    color: #3C747C;
+}
+h2{
+    font-family: 'Amaranth-Regular', Verdana, serif;
+    margin-left: 6%;
+    color: #163C42;
+}
+p{
+    font-family: 'TililliumWeb-Regular',monospace;
+}
+#prem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+}
+#illu{
+  width: 84%;
+  margin-left: 30%;
+}
+#player2{
+  display:inline-block;
+}
+#player1{
+  margin-left: 5%;
+}
